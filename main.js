@@ -14,17 +14,17 @@
 
 
 // CONSTANTES
-const MyBirthDay = "December 17, 2005";
+// const MyBirthDay = "December 17, 2005";
 
 // alert(MyBirthDay);
 
 // TIPOS DE DATOS
-let MyAge = 33;
-let IsActive = true;
-let IsBlue = false;
+// let MyAge = 33;
+// let IsActive = true;
+// let IsBlue = false;
 
-let MyHeight = null;
-let MyHeight2 = undefined;
+// let MyHeight = null;
+// let MyHeight2 = undefined;
 
 // PROMPTS
 // let year = prompt('anyo actual:');
@@ -43,12 +43,41 @@ let Num2 = 20;
 // alert ( Num1 * Num2 );
 // alert ( Num1 / Num2 );
 
-let Num3 = 2;
-Num3++;
-alert(Num3);
+// let Num3 = 2;
+// Num3++;
+// alert(Num3);
 
 // OPERADORES DE COMPARACION
-alert( 2 > 1 );
-alert( 2 < 1 );
-alert( 2 == 1 );
-alert( 2 != 1 );
+// alert( 2 > 1 );
+// alert( 2 < 1 );
+// alert( 2 == 1 );
+// alert( 2 != 1 ); 
+
+// CONDICONALES
+// let year = prompt("ingerse el anyo actual:");
+
+// if ( year == 2024 ) {
+//     alert("Muy bien");
+//     alert("Mondongo");
+// }
+
+// let year = prompt("ingrese el anyo actual:");
+
+// if ( year == 2024 ) {
+//     alert("Muy bien");
+//     alert("Mondongo");
+// } else {
+//     alert("No es correcto");
+// }
+
+// CONDICIONALES ENCADENADOS
+let year = prompt("ingrese el anyo actual:");
+
+ if ( year == 2024 ) {
+        alert("Muy bien");
+        alert("Mondongo");
+} else if ( year > 2024 ){
+    alert("Muy alto")
+} else if ( year < 2024 ){
+    alert("Muy bajo")
+}
