@@ -109,10 +109,10 @@
 
 
 let User = prompt('Quien es?', '')
-let PassWord = prompt('Y tu contrasenya?', '')
 
 if (User == "Admin") {
 
+    let PassWord = prompt('Y tu contrasenya?', '')
 
     if ( PassWord == "Buenas" ){
         alert("Bienvenido jefe");
