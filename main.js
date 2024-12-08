@@ -108,21 +108,23 @@
 // alert( false && false ); //false
 
 
-let User = prompt('Quien es?', '')
-let PassWord = prompt('Y tu contrasenya?', '')
 
-if (User == "Admin") {
+// EJERCICIO CONDICIONALES
+// let User = prompt('Quien es?', '')
+// let PassWord = prompt('Y tu contrasenya?', '')
+
+// if (User == "Admin") {
 
 
-    if ( PassWord == "Buenas" ){
-        alert("Bienvenido jefe");
-    } else if ( PassWord == '' || PassWord == null ) {
-        alert("Escribe")
-    } else {
-        alert("No puedes")
-    }
-} else if ( User == '' || User == null ) {
-    alert( "Quien eres" )
-} else {
-    alert( "Deja" )
-}
+//     if ( PassWord == "Buenas" ){
+//         alert("Bienvenido jefe");
+//     } else if ( PassWord == '' || PassWord == null ) {
+//         alert("Escribe")
+//     } else {
+//         alert("No puedes")
+//     }
+// } else if ( User == '' || User == null ) {
+//     alert( "Quien eres" )
+// } else {
+//     alert( "Deja" )
+// }
