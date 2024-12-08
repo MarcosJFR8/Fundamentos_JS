@@ -108,13 +108,11 @@
 // alert( false && false ); //false
 
 
-
-// EJERCICIO CONDICIONALES
 // let User = prompt('Quien es?', '')
-// let PassWord = prompt('Y tu contrasenya?', '')
 
 // if (User == "Admin") {
 
+//     let PassWord = prompt('Y tu contrasenya?', '')
 
 //     if ( PassWord == "Buenas" ){
 //         alert("Bienvenido jefe");
@@ -128,3 +126,60 @@
 // } else {
 //     alert( "Deja" )
 // }
+
+
+
+// CICLOS while
+// while (condition) {
+//     sentences;
+//     sentences;
+// }
+
+// let counter = 0;
+
+// while (counter < 3){
+//     alert(counter)
+//     counter++;
+// }
+
+// CICLOS for
+// for (begin; condition, step); {
+// for body 
+// }
+
+// for (let counter = 0; counter < 3; counter++) {
+//     alert(counter);
+// }
+
+
+
+// FUNCIONES
+// function showMessage() {
+//     alert("Hola");
+// }
+
+// showMessage();
+// showMessage();
+
+
+
+// FUNCIONES CON VARIABLES LOCALES
+// function showMessage() {
+//     let message = "hola"
+//     alert(message)
+// }
+
+// showMessage();
+// alert(message);
+
+
+
+// FUNCIONES CON VARIABLES EXTERNAS
+// let userName = "Alex";
+
+// function showMessage() {
+//     let message = "hola" + userName;
+//     alert(message);
+// }
+
+// showMessage();
