@@ -108,24 +108,24 @@
 // alert( false && false ); //false
 
 
-// let User = prompt('Quien es?', '')
+//  let User = prompt('Quien es?', '')
 
-// if (User == "Admin") {
+//  if (User == "Admin") {
 
-//     let PassWord = prompt('Y tu contrasenya?', '')
+//      let PassWord = prompt('Y tu contrasenya?', '')
 
-//     if ( PassWord == "Buenas" ){
-//         alert("Bienvenido jefe");
-//     } else if ( PassWord == '' || PassWord == null ) {
-//         alert("Escribe")
-//     } else {
-//         alert("No puedes")
-//     }
+//      if ( PassWord == "Buenas" ){
+//          alert("Bienvenido jefe");
+//      } else if ( PassWord == '' || PassWord == null ) {
+//          alert("Escribe")
+//      } else {
+//          alert("No puedes")
+//      }
 // } else if ( User == '' || User == null ) {
-//     alert( "Quien eres" )
-// } else {
-//     alert( "Deja" )
-// }
+//      alert( "Quien eres" )
+//  } else {
+//      alert( "Deja" )
+//  }
 
 
 
@@ -183,3 +183,35 @@
 // }
 
 // showMessage();
+
+
+
+function calculator() {
+    let continueCalculating = true;
+
+    while (continueCalculating) {
+        let Num1 = prompt( 'Ingresa el primer numero' );
+        let Operator = prompt( 'Que operacion' );
+        let Num2 = prompt( 'Ingresa el segundo numero' );
+
+        if (Num1 === null || Operator === null || Num2 === null) {
+            alert('Hasta luego');
+            break;
+        }
+
+        Num1 = Number(Num1);
+        Num2 = Number(Num2);
+
+            if ( Operator === '+' ){
+                alert( Num1 + Num2 );
+            } else if ( Operator === '-' ) {
+                alert( Num1 - Num2 );
+            } else if ( Operator === '*' ) {
+                alert( Num1 * Num2 );
+            } else if ( Operator === '/' ) {
+                alert( Num1 / Num2 );
+            }
+        }
+}
+
+calculator();
